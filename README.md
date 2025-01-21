@@ -13,7 +13,7 @@ sectionごとに新たにmainブランチから作業ブランチを作成して
 
 例:ブランチ名　secti1on01-04
 
-sourcetree、gitの使い方ついては以下参考程度なので、
+github desktop、gitの使い方ついては以下参考程度なので、
 困ったときは検索して調べてみて下さい。
 
 sourcetree
@@ -26,7 +26,7 @@ sectionごとに作業が終わったらmainに向けて
 pull requestを作成してください。
 https://qiita.com/samurai_runner/items/7442521bce2d6ac9330b
 
-またskypeで作業した内容の連絡をお願いします。
+またslackで作業した内容の連絡をお願いします。
 
 ## デザインデータについて
 googlefont,font aweasomeを使用しています。フォントがない場合は上手くフォントが表示されないので、それぞれダウンロードしてパソコンにインストールしてください
@@ -42,6 +42,7 @@ https://fonts.google.com/specimen/Parisienne
 
 ## section1
 CSS設計BEMを使用してhtmlコーディング
+※変更あり
 
 参考リンク
 
