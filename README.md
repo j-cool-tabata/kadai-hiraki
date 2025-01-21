@@ -16,8 +16,8 @@ sectionごとに新たにmainブランチから作業ブランチを作成して
 github desktop、gitの使い方ついては以下参考程度なので、
 困ったときは検索して調べてみて下さい。
 
-sourcetree
-https://eng-entrance.com/sourcetree-use
+github desktop
+[https://eng-entrance.com/sourcetree-use](https://desktop.github.com/download/)
 
 コマンド
 https://qiita.com/kohga/items/dccf135b0af395f69144
