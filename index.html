@@ -9,75 +9,78 @@
 </head>
 <body>
     <header class="header" id="#top">
-        <img src="assets/img/mv.jpg" alt="" class="header_img">
-        <nav class="nav_bar">
+        <img src="assets/img/mv.jpg" class="img mv_img" alt="">
+        <nav class="nav">
             <div class="menu_toggle" id="menu_toggle">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
+                <div class="nav_bar"></div>
+                <div class="nav_bar"></div>
+                <div class="nav_bar"></div>
             </div>
             <ul class="nav_links" id="nav_links">
-                <li><a href="#top">Top</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li class="nav_list"><a href="#top">Top</a></li>
+                <li class="nav_list"><a href="#about">About</a></li>
+                <li class="nav_list"><a href="#menu">Menu</a></li>
+                <li class="nav_list"><a href="#contact">Contact</a></li>
+                <li class="nav_list"><a href="#blog">Blog</a></li>
             </ul>
         </nav>
     </header>
     <main class="main">
         <section class="about" id="#about">
             <div class="about_group">
-                <img src="assets/img/key-v.jpg" alt="" class="about_img">
-                <div class="about_outer">
+                <img src="assets/img/key-v.jpg" class="img key-v_img" alt="">
+                <div class="about_box">
                     <div class="about_content">
-                        <h1 class="about_title">白金台にある癒しのプライベート空間</h1>
-                        <p class="about_text">エステサロンビューティフルデイズは、<br>がんばるあなたがちょっと疲れた時に<br>立ち寄れるほっとする時間をつくります。</p>
+                        <p class="about_title">白金台にある癒しのプライベート空間</p>
+                        <p class="about_title-text">エステサロンビューティフルデイズは、<br>がんばるあなたがちょっと疲れた時に<br>立ち寄れるほっとする時間をつくります。</p>
                     </div>
                     <div class="button">
-                        <a href="">お店のご紹介</a>
+                        <a href="/">お店のご紹介</a>
                     </div>
                 </div>
             </div>
         </section>
         <section class="menu" id="#menu">
             <h2 class="title">Menu</h2>
-            <div class="menu_content">
-                <div class="menu_item">
+            <div class="menu_group">
+                <div class="menu_content">
                     <img src="assets/img/slider01.png" alt="">
-                    <h3>メイク / セット</h3>
-                    <p>3,000 yen～</p>
+                    <h3 class="menu_content-title">メイク / セット</h3>
+                    <p class="menu_content-text">3,000 yen～</p>
                 </div>
-                <div class="menu_item">
+                <div class="menu_content">
                     <img src="assets/img/slider02.jpg" alt="">
-                    <h3>フェイシャル</h3>
-                    <p>5,000 yen～</p>
+                    <h3 class="menu_content-title">フェイシャル</h3>
+                    <p class="menu_content-text">5,000 yen～</p>
                 </div>
-                <div class="menu_item">
+                <div class="menu_content">
                     <img src="assets/img/slider03.jpg" alt="">
-                    <h3>ボディトリートメント</h3>
-                    <p>8,000 yen～</p>
+                    <h3 class="menu_content-title">ボディトリートメント</h3>
+                    <p class="menu_content-text">8,000 yen～</p>
                 </div>
-                <div class="menu_item">
+                <div class="menu_content">
                     <img src="assets/img/slider04.jpg" alt="">
-                    <h3>ウェディングメニュー</h3>
-                    <p>12,000 yen～</p>
+                    <h3 class="menu_content-title">ウェディングメニュー</h3>
+                    <p class="menu_content-text">12,000 yen～</p>
                 </div>
-                <div class="menu_item">
+                <div class="menu_content">
                     <img src="assets/img/slider05.jpg" alt="">
-                    <h3>ハンドケア / フットケア</h3>
-                    <p>3,000 yen～</p>
+                    <h3 class="menu_content-title">ハンドケア / フットケア</h3>
+                    <p class="menu_content-text">3,000 yen～</p>
                 </div>
+            </div>
+            <div class="button">
+                <a href="/">メニュー一覧を見る</a>
             </div>
         </section>
         <section class="contact" id="#contact">
             <div class="contact_content">
                 <div class="contact_item">
                     <h3 class="contact_title">ご予約方法</h3>
-                    <p>TEL<a href="">03-1234-5678</a></p>
-                    <p>（営業時間：10:00-20:00）</p>
+                    <p class="contact_tel">TEL<a href="tel:03-1234-5678">03-1234-5678</a></p>
+                    <p class="contact_time">（営業時間：10:00-20:00）</p>
                     <div class="button">
-                        <a href="">お問い合わせ</a>
+                        <a href="/">お問い合わせ</a>
                     </div>
                 </div>
                 <img src="assets/img/reserve.jpg" alt="">
@@ -110,15 +113,17 @@
     </main>
     <footer class="footer">
         <div class="footer_title">
-            <p class="footer_text">白金台の癒しのエステサロン</p>
-            <h4>Beautiful Days</h4>
+            <p>白金台の癒しのエステサロン</p>
+            <h1>Beautiful Days</h1>
         </div>
-        <nav class="footer_nav">
-            <a href="#">Top</a>
-            <a href="#">About</a>
-            <a href="#">Menu</a>
-            <a href="#">Contact</a>
-            <a href="#">Blog</a>
+        <nav class="nav">
+            <ul class="nav_links" id="nav_links">
+                <li class="nav_list"><a href="#top">Top</a></li>
+                <li class="nav_list"><a href="#about">About</a></li>
+                <li class="nav_list"><a href="#menu">Menu</a></li>
+                <li class="nav_list"><a href="#contact">Contact</a></li>
+                <li class="nav_list"><a href="#blog">Blog</a></li>
+            </ul>
         </nav>
         <p class="copy">&copy;Beautiful days</p>
     </footer>
