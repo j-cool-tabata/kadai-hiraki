@@ -5,9 +5,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 62.5%;
+}
+.mv_img{
+    max-width: 100%;
+    margin: 0 auto;
+}
 
+.key-v_img{
+    width: 40%;
+}
+
+.about_content{
+    text-align: center;
+}
 .about_group {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 1148px;
+    margin: 0 auto;
+    gap: 5%;
+}
+
+.about_title{
+    font-family: "Noto Serif JP", serif;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.about_title-text{
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 2;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.button{
+    font-family: "Noto Serif JP", serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    border: solid 1px #cccccc;
+    margin: 20px auto;
+    width: 30%;
+    text-align: center;
+}
+
+.button a{
+    list-style: none;
 }
